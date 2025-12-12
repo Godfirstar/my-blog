@@ -18,7 +18,7 @@
 import { getPageBlocks, getPageTable } from 'vue-notion'
 
 // 假设这是你的 Notion Database ID
-const NOTION_TABLE_ID = 'https://www.notion.so/blog-2c77f6fa07148090b5fcfcde53ccbebb?source=copy_link'
+const NOTION_TABLE_ID = '2c77f6fa07148090b5fcfcde53ccbebb'
 
 // 获取文章列表数据
 const { data: posts, pending } = await useAsyncData('posts', async () => {
